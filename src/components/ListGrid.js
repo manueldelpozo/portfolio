@@ -26,7 +26,7 @@ function ListGrid(props) {
     return (
         <List className={classes.root}>
             {props.list.map(item => (
-                <ListItem alignItems="flex-start" key={item.icon}>
+                <ListItem alignItems="flex-start" key={item.title}>
                     <ListItemAvatar>
                         <Avatar alt={item.title} src={require(`./../assets/${item.icon}`)} />
                     </ListItemAvatar>

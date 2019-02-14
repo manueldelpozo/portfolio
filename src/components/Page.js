@@ -11,8 +11,8 @@ class Page extends PureComponent {
         this.pagesBeforeMount = props.pages
 
         this.props.history.listen((location, action) => {
-            //console.log(action, location.pathname, location)
-            this.props.setContent(location.pathname)
+            console.log(action, location.pathname, location)
+            this.props.setContent(location.pathname.replace(process.env.PUBLIC_URL, ''))
         })
     }
 
