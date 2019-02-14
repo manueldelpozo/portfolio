@@ -55,42 +55,42 @@ class App extends PureComponent {
     this.updateLinks = this.updateLinks.bind(this)
     this.pages = [
       {
-        path: '/',
+        path: process.env.PUBLIC_URL + '/',
         name: 'Home',
         component: Home,
         icon: 'home',
         themeColor: 'primary'
       },
       {
-        path: '/works',
+        path: process.env.PUBLIC_URL + '/works',
         name: 'Work Experiences',
         component: Works,
         icon: 'business_center',
         themeColor: 'secondary'
       },
       {
-        path: '/skills',
+        path: process.env.PUBLIC_URL + '/skills',
         name: 'My Skills',
         component: Skills,
         icon: 'how_to_reg',
         themeColor: 'primary'
       },
       {
-        path: '/training',
+        path: process.env.PUBLIC_URL + '/training',
         name: 'My Training',
         component: Training,
         icon: 'fitness_center',
         themeColor: 'secondary'
       },
       {
-        path: '/contact',
+        path: process.env.PUBLIC_URL + '/contact',
         name: 'Contact Me',
         component: Contact,
         icon: 'alternate_email',
         themeColor: 'primary'
       }
     ]
-    this.initialPath = '/'
+    this.initialPath = process.env.PUBLIC_URL + '/'
 
     this.state = {
       currentPath: this.initialPath, 

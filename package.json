@@ -2,7 +2,7 @@
   "name": "manueldelpozo-r",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://manueldelpozo.github.io/manueldelpozo-frontend",
+  "homepage": "https://manueldelpozo.github.io/portfolio",
   "dependencies": {
     "@material-ui/core": "^3.8.1",
     "@material-ui/icons": "^3.0.1",
