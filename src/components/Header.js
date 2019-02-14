@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { NavLink as Link } from 'react-router-dom'
+import { NavLink as Link, BrowserRouter } from 'react-router-dom'
 import Bubble from './Bubble.js'
 import Grid from '@material-ui/core/Grid'
 
@@ -21,6 +21,7 @@ const Header = (props) => {
                     direction="row"
                     justify="center"
                     alignItems="center">
+                        <BrowserRouter basename={process.env.PUBLIC_URL} />
                         {links}
                 </Grid>
             </nav>
