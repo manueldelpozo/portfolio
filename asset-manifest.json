@@ -8,7 +8,7 @@
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/icono.jpg": "/portfolio/static/media/icono.b48a9f12.jpg",
-  "static/media/index.css": "/portfolio/static/media/roboto-latin-100.e9dbbe8a.woff",
+  "static/media/index.css": "/portfolio/static/media/roboto-latin-100.987b8457.woff2",
   "static/media/CNAME": "/portfolio/static/media/CNAME.9f23b994.bin",
   "static/media/about-profile.png": "/portfolio/static/media/about-profile.f23d2782.png",
   "static/media/edu-archicourses.png": "/portfolio/static/media/edu-archicourses.76216bf9.png",
@@ -37,6 +37,6 @@
   "static/css/main.8ee229a5.chunk.css.map": "/portfolio/static/css/main.8ee229a5.chunk.css.map",
   "static/css/1.fffb0dfe.chunk.css.map": "/portfolio/static/css/1.fffb0dfe.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.b21e70abeed86e4685ed5dd2dddddaef.js": "/portfolio/precache-manifest.b21e70abeed86e4685ed5dd2dddddaef.js",
+  "precache-manifest.eee252bdacc6edf898c7f8593a703487.js": "/portfolio/precache-manifest.eee252bdacc6edf898c7f8593a703487.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
