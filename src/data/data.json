@@ -1,0 +1,205 @@
+        {
+            "en": {
+                "/": {
+                    "header": {
+                        "title": "Welcome to my web portfolio",
+                        "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
+                    },
+                    "body": "This is Home"
+                },
+                "/works": {
+                    "header": {
+                        "title": "Find out all the information about my work experience in web development" ,
+                        "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
+                    },
+                    "body": [
+                        {
+                            "icon": "icons/works-ing.png",
+                            "title": "FRONT-END DEVELOPER: ING BANK (COGNIZANT)__BRUSSELS (BELGIUM)__2017/18 ",
+                            "text": "DEVELOPMENT AND DELIVERY OF POLYMER PWA PROGRESSIVE WEB APPs WITHIN THE END-TO-END PROCESS // REUSE OF THE GUIDE UI COMPONENTS // CONTINUOUS INTEGRATION WITH PICARD - ARTIFACTORY - NOLIO // ING AGILE WAY OF WORKING // OMNICHANNEL SQUAD AND TRIBES FOR THE UNITE BE+NL PLATFORM //",
+                            "link": "https://www.ing.be/"
+                        },
+                        {
+                            "icon": "icons/works-bankia.png",
+                            "title": "FRONT-END DEVELOPER: BANKIA (GFT GROUP)__MADRID (SPAIN)__2017",
+                            "text": "DEVELOPMENT AND MAINTENANCE OF ONLINE BUSINESS BANKING ENTERPRISE PLATFORM // RESTFUL WEB SERVICE WITH ANGULARJS // GRUNT AND GULP // GIT AND STASH // CONTINUOUS INTEGRATION WITH BAMBOO // SCRUM TEAM MEMBER //",
+                            "link": "https://www.bankia.es/"
+                        },
+                        {
+                            "icon": "icons/works-cc.png",
+                            "title": "JAVASCRIPT UI DEVELOPER__SCRUM MASTER: C&C TECHNOLOGY (TKH GROUP)__LESZNO (POLAND)__2015/16",
+                            "text": "DESIGN, DEVELOPMENT, INTEGRATION AND TESTING OF POLYMER WEB COMPONENTS FOR A GUI CATALOG // SCRUM MASTER: RETROSPECTIVE, REVIEW AND PLANNING // MAINTENANCE OF MOBILE APPLICATIONS // CREATION OF GULP TASKS FOR BUILDING PROCESS // VERSION CONTROL WITH GITLAB // CONTINUOUS INTEGRATION WITH JENKINS // ",
+                            "link": "https://www.cctechnology.pl/"
+                            },
+                            {
+                            "icon": "icons/works-gopopup.png",
+                            "title": "FRONT-END DEVELOPER: GO-POPUP - BERLIN (GERMANY)__2015",
+                            "text": "RESPONSIVE WEB DESIGN WITH LESS AND BOOTSTRAP // MAINTENANCE OF BACKBONE JS ON A PLAY FRAMEWORK // CONFIGURATION OF SCALA BUILD TOOL // DESIGN AND INTEGRATION OF PHP APPLICATION TO MIGRATE DATA // CUSTOM GOOGLE MAPS MARKERS // ADVANCED DEVELOPMENT OF WORDPRESS THEMES // VERSION CONTROL WITH GITHUB //  ",
+                            "link": "https://www.gopopup.com/en"
+                            },
+                            {
+                            "icon": "icons/works-qsdm.png",
+                            "title": "UI/UX DESIGNER AND FRONT-END DEVELOPER: QUESERADEMI (STARTUP)__MADRID (SPAIN)__2012/15",
+                            "text": "MOCKUPS, WEB INTERFACE SKETCHES, WIREFRAMES AND STORYBOARDS // INTERACTIVE PROTOTYPES WITH FLASH  // PRODUCTION OF PROMOTIONAL VIDEOS                           // IMPLEMENTATION OF HIGHCHARTS AND TWITTER TYPEAHEAD // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN  // GOOGLE ANALYTICS TRACKING // INTEGRATION OF WORDPRESS BLOG // MANAGEMENT //",
+                            "link": "https://queserademi.com/"
+                            },
+                            {
+                            "icon": "icons/works-au10etdeco.png",
+                            "title": "FLASH WEB DESIGNER: AU 10 ET DÉCO__CLERMONT FERRAND (FRANCE)__2011",
+                            "text": "WEB PROJECT MANAGEMENT // USER INTERACTION DESIGN // CREATION OF FLASH ANIMATIONS // MOCKUPS AND PAGE LAYOUTS // DREAMWEAVER AND FLASH DESIGN //",
+                            "link": "http://www.au10etdeco.com/"
+                            }
+                    ]
+                },
+                "/skills": {
+                    "header": {
+                        "title": "Have a look and discover the information about my personal skills, my academic experience and my technical abilities" ,
+                        "subtitle": ""
+                    },
+                    "body": [
+                        {
+                            "icon": "icons/tech-frontend.png",
+                            "title": "JAVASCRIPT",
+                            "text": "// ES6 // ANGULAR 2+ // REACT + REDUX // POLYMER 2+ // VUE // MATERIAL UI // TYPESCRIPT // LODASH // JQUERY // ",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/tech-frontend.png",
+                            "title": "CSS3",
+                            "text": "// SASS // LESS // BOOTSTRAP 4 // FLEXBOX // BEM //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/tech-frontend.png",
+                            "title": "CMS",
+                            "text": "// WORDPRESS ADVANCED THEMING // MAGENTO 2 //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/tech-node.png",
+                            "title": "UNIT-TEST",
+                            "text": "// JUNIT // WCT // MOCHA JS // CHAI JS // SAUCELAB //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/tech-node.png",
+                            "title": "BUILD & DEPLOYMENT",
+                            "text": "// NODE JS // NPM // BOWER // WEBPACK // GULP // JENKINS // ARTIFACTORY // NOLIO // BAMBOO //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/tech-scrum.png",
+                            "title": "WORKFLOW",
+                            "text": "// GIT: { GITLAB, GITHUB, STASH + SOURCETREE, TORTOISE } // AGILE: { YOU-TRACK, JIRA, CONFLUENCE, MATTERMOST } // ",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/tech-backend.png",
+                            "title": "BACK-END",
+                            "text": "// JAVA: { SPRING + MAVEN } // PHP: { SYMFONY 2.0 + DOCTRINE } // PYTHON // MYSQL // GRAPHQL //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/tech-graphic.png",
+                            "title": "IDE",
+                            "text": "// WEBSTORM // PHPSTORM // INTELLIJ // SUBLIME // VISUAL STUDIO CODE // NETBEANS // SPRING TOOL SUITE //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/tech-graphic.png",
+                            "title": "UI/UX",
+                            "text": "// PHOTOSHOP // DREAMWEAVER // EDGE ANIMATE // AFTER-EFFECTS // FLASH PRO // ILLUSTRATOR // INVISION //",
+                            "link": ""
+                        }
+                    ]
+                },
+                "/training": {
+                    "header": {
+                        "title": "Welcome to my training" ,
+                        "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
+                    },
+                    "body": [
+                        {
+                            "icon": "icons/edu-webagile.png",
+                            "title": "AGILE DEVELOPMENT SPECIALIZATION: UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
+                            "text": "// KEY CONCEPTS OF AGILE PRODUCT DEVELOPMENT METHODOLOGY // SHARED PERSPECTIVE AND DRIVE TO VALUE USING PERSONAS AND PROBLEM SCENARIOS-DIAGNOSE // USE OF AGILE USER STORIES AND PROTOTYPES // FACILITATE NARRATIVE COLLABORATION WITH USER STORIES AND PROTOTYPES // TESTING AND VALIDATION BY ANALYZING AND DECIDING ON STORY BACKLOGS //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/edu-webdevelopment.png",
+                            "title": "WEB APPLICATION DEVELOPMENT: IES JOSÉ PLANES - MURCIA (SPAIN) - 2013/15",
+                            "text": "// OBJECT-ORIENTED PROGRAMMING // RELATIONAL DATABASES (ER-MODEL) // DMBS (SQL) // COMPUTER SYSTEMS // WEB APP INTERFACE DESIGN // WEB SERVER ADMINISTRATION // SUBNETTING // PROJECT MANAGEMENT // CMS // UI-UX DESIGN // RESPONSIVE WEB DESIGN // ENGLISH FOR IT //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/edu-webmobile.png",
+                            "title": "WEBAPPS FOR MOBILE DEVICES (FIREFOX-OS): MIRADAX - COURSE ONLINE - 2014",
+                            "text": "// GEOLOCATION API // SVG AND CANVAS // JSON // TOUCH EVENTS // JQUERY AND ZEPTO // DOM // RESPONSIVE WEB DESIGN HTML5 AND CSS3 // FIREFOX WEB DEVELOPER TOOLS //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/edu-webdesign.png",
+                            "title": "WEB DESIGN & WEB INTEGRATION COURSES: FORMATO FORMACIÓN + ACADEMIA CIMBRA - MURCIA (SPAIN) - 2011/13",
+                            "text": "// ADOBE CREATIVE SUITE: { PHOTOSHOP, DREAMWEAVER, FIREWORKS, FLASH PROFESSIONAL, IN-DESIGN, EDGE ANIMATE, AFTER-EFFECTS } // WEB INTEGRATION: { SITE USABILITY, SEO POSITIONING, WEB STANDARDS (W3C), BROWSER COMPATIBILITY, DIGITAL MARKETING TRENDS } //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/edu-architecture.png",
+                            "title": "M. ARCHITECTURE ENGINEERING AND LANDSCAPE: UNIVERSITY OF ALICANTE - ALICANTE (SPAIN) - 2003/11",
+                            "text": "// HOUSING AND PUBLIC FACILITIES // RENOVATION PROJECT // LANDSCAPE AND URBAN PLANNING // SUSTAINABLE HOUSING STRATEGIES // STRUCTURAL CALCULATION // HOME AUTOMATION PROJECTS // BUILDING SYSTEMS // PATHOLOGIES AND COST ESTIMATING //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/edu-archiulster.png",
+                            "title": "BSC(HONS) ARCHITECTURAL TECHNOLOGY AND MANAGEMENT: UNIVERSITY OF ULSTER - BELFAST (NI UNITED KINGDOM) - 2008/09 ",
+                            "text": "// BUILDING SYSTEMS DETAILS // CAR SHOWROOM MUSEUM // SHOPPING MALL IN DONEGALL PLACE //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/edu-archicourses.png",
+                            "title": "OTHER ARCHITECTURE COURSES: UNIVERSITY OF ALICANTE + POLYTHEC. UNIVERSITY OF CARTAGENA - ALICANTE + MURCIA (SPAIN) - 2002/11",
+                            "text": "// BUILDING ENGINEERING // HOME AUTOMATION // UNIVERSAL ACCESIBILITY // SOFTWARE FOR STRUCTURAL CALCULATION // BUILDING CONCRETE PATHOLOGIES // VIRTUAL STGE DESIGN WITH 3DS-MAX //",
+                            "link": ""
+                        }
+                    ]
+                },
+                "/contact": {
+                    "header": {
+                        "title": "Welcome to my contact" ,
+                        "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
+                    },
+                    "body": [
+                        {
+                            "icon": "icons/about-profile.png",
+                            "title": "WHO I AM",
+                            "text": "<h4><strong>Manuel del Pozo</strong> || web developer + architect = <a class='green-a' href='http://www.adaptivepath.com/ideas/what-makes-a-design-technologist/'>design technologist</a></h4>",
+                            "link": "https://www.manueldelpozo.info/"
+                        },
+                        {
+                            "icon": "icons/about-address_telf.png",
+                            "title": "WHERE I AM",
+                            "text": "+34 686 12 09 34",
+                            "link": "callto://manudelpozo"
+                        },
+                        {
+                            "icon": "icons/about-mail.png",
+                            "title": "HOW TO CONTACT ME",
+                            "text": "mdp.webdeveloper@gmail.com",
+                            "link": "mailto:mdp.webdeveloper@gmail.com"
+                        },
+                        {
+                            "icon": "icons/about-linkedin.png",
+                            "title": "MY LINKEDIN PROFILE",
+                            "text": "www.linkedin.com/in/delpozodeveloper",
+                            "link": "https://wwww.linkedin.com/in/delpozodeveloper"
+                        },
+                        {
+                            "icon": "icons/about-webprofile.png",
+                            "title": "MY REPOSITORIES",
+                            "text": "www.github.com/manueldelpozo",
+                            "link": "https://www.github.com/manueldelpozo"
+                        }
+                    ]
+                }
+            }
+        }
