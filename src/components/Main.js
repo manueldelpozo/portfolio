@@ -5,7 +5,7 @@ import Scene from './Scene.js'
 
 const Main = (props) => {
     const routes = props.pages.map(page => 
-        <Route exact path={page.path} key={page.name} render={ () => (
+        <Route exact path={process.env.PUBLIC_URL + page.path} key={page.name} render={ () => (
             <Fragment>
                 <page.component body={props.body} />
                 <Scene color={page.themeColor} zoomIn={true} />

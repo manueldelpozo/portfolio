@@ -11,7 +11,7 @@ class Page extends PureComponent {
         this.pagesBeforeMount = props.pages
 
         this.props.history.listen((location, action) => {
-            console.log(action, location.pathname, location)
+            //console.log(action, location.pathname, location, process.env.PUBLIC_URL)
             this.props.setContent(location.pathname.replace(process.env.PUBLIC_URL, ''))
         })
     }
@@ -25,7 +25,7 @@ class Page extends PureComponent {
     }
 
     render() {
-        const content = this.props.content[this.props.location.pathname]
+        const content = this.props.content[this.props.location.pathname.replace(process.env.PUBLIC_URL, '')]
         return (
             <Fragment>
                 <Grid container spacing={24} justify="center" alignItems="center">

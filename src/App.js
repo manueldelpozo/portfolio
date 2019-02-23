@@ -108,7 +108,7 @@ class App extends PureComponent {
   }
 
   updateLinks(currentPath) {
-    const pages = this.pages.filter(page => page.path !== currentPath)
+    const pages = this.pages.filter(page => page.path !== currentPath.replace(process.env.PUBLIC_URL, ''))
     //setTimeout(() => {
       this.setState({
         pages 

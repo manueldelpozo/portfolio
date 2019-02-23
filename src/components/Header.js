@@ -7,7 +7,7 @@ import Grid from '@material-ui/core/Grid'
 const Header = (props) => {
     const links = props.pages.map(page => 
         <Grid item xs={6} md={3} key={page.name}>
-            <Link to={page.path} style={{textDecoration: 'none'}}>
+            <Link to={process.env.PUBLIC_URL + page.path} style={{textDecoration: 'none'}}>
                 <Bubble icon={page.icon} text={page.name} themeColor={page.themeColor} />
             </Link>
         </Grid>
@@ -21,7 +21,7 @@ const Header = (props) => {
                     direction="row"
                     justify="center"
                     alignItems="center">
-                        <BrowserRouter basename={process.env.PUBLIC_URL} />
+                        
                         {links}
                 </Grid>
             </nav>
