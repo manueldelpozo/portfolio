@@ -120,49 +120,49 @@
                     },
                     "body": [
                         {
-                            "icon": "icons/edu-webagile.png",
+                            "icon": "icons/training/react.png",
+                            "title": "REACT CERTIFICATES - LINKEDIN LEARNING - 2018/19",
+                            "text": "// REACT + REDUX // REACT NATIVE // REACT ROUTER // REACT SERVER-SIDE RENDERING // GRAPHQL //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/training/angular.png",
+                            "title": "FULL-STACK ASSESSMENTS - PLURALSIGHT - 2018",
+                            "text": "// SPRING MVC + MAVEN // ASYNC RESTFUL SERVICE WITH JERSEY // CI & CD // POLICY APP WITH ANGULAR 5+ //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/training/polymer.png",
+                            "title": "POLYMER SUMMIT - LONDON & COPENHAGEN - 2016/17",
+                            "text": "// EARLY PRESENTATION POLYMER 2 AND POLYMER 3 // POLYMER BASED PLATFORMS YOUTUBE AND NETFLIX // WEB COMPONENTS BST PRACTICES // WEBPACK, ES MODULES, NPM + YARN //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/training/agile.png",
                             "title": "AGILE DEVELOPMENT SPECIALIZATION: UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
                             "text": "// KEY CONCEPTS OF AGILE PRODUCT DEVELOPMENT METHODOLOGY // SHARED PERSPECTIVE AND DRIVE TO VALUE USING PERSONAS AND PROBLEM SCENARIOS-DIAGNOSE // USE OF AGILE USER STORIES AND PROTOTYPES // FACILITATE NARRATIVE COLLABORATION WITH USER STORIES AND PROTOTYPES // TESTING AND VALIDATION BY ANALYZING AND DECIDING ON STORY BACKLOGS //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/edu-webagile.png",
-                            "title": "AGILE DEVELOPMENT SPECIALIZATION: UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
-                            "text": "// KEY CONCEPTS OF AGILE PRODUCT DEVELOPMENT METHODOLOGY // SHARED PERSPECTIVE AND DRIVE TO VALUE USING PERSONAS AND PROBLEM SCENARIOS-DIAGNOSE // USE OF AGILE USER STORIES AND PROTOTYPES // FACILITATE NARRATIVE COLLABORATION WITH USER STORIES AND PROTOTYPES // TESTING AND VALIDATION BY ANALYZING AND DECIDING ON STORY BACKLOGS //",
-                            "link": ""
-                        },
-                        {
-                            "icon": "icons/edu-webagile.png",
-                            "title": "AGILE DEVELOPMENT SPECIALIZATION: UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
-                            "text": "// KEY CONCEPTS OF AGILE PRODUCT DEVELOPMENT METHODOLOGY // SHARED PERSPECTIVE AND DRIVE TO VALUE USING PERSONAS AND PROBLEM SCENARIOS-DIAGNOSE // USE OF AGILE USER STORIES AND PROTOTYPES // FACILITATE NARRATIVE COLLABORATION WITH USER STORIES AND PROTOTYPES // TESTING AND VALIDATION BY ANALYZING AND DECIDING ON STORY BACKLOGS //",
-                            "link": ""
-                        },
-                        {
-                            "icon": "icons/edu-webagile.png",
-                            "title": "AGILE DEVELOPMENT SPECIALIZATION: UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
-                            "text": "// KEY CONCEPTS OF AGILE PRODUCT DEVELOPMENT METHODOLOGY // SHARED PERSPECTIVE AND DRIVE TO VALUE USING PERSONAS AND PROBLEM SCENARIOS-DIAGNOSE // USE OF AGILE USER STORIES AND PROTOTYPES // FACILITATE NARRATIVE COLLABORATION WITH USER STORIES AND PROTOTYPES // TESTING AND VALIDATION BY ANALYZING AND DECIDING ON STORY BACKLOGS //",
-                            "link": ""
-                        },
-                        {
-                            "icon": "icons/edu-webdevelopment.png",
+                            "icon": "icons/training/daw.png",
                             "title": "WEB APPLICATION DEVELOPMENT: IES JOSÉ PLANES - MURCIA (SPAIN) - 2013/15",
                             "text": "// OBJECT-ORIENTED PROGRAMMING // RELATIONAL DATABASES (ER-MODEL) // DMBS (SQL) // COMPUTER SYSTEMS // WEB APP INTERFACE DESIGN // WEB SERVER ADMINISTRATION // SUBNETTING // PROJECT MANAGEMENT // CMS // UI-UX DESIGN // RESPONSIVE WEB DESIGN // ENGLISH FOR IT //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/edu-webmobile.png",
+                            "icon": "icons/training/mobileapp.png",
                             "title": "WEBAPPS FOR MOBILE DEVICES (FIREFOX-OS): MIRADAX - COURSE ONLINE - 2014",
                             "text": "// GEOLOCATION API // SVG AND CANVAS // JSON // TOUCH EVENTS // JQUERY AND ZEPTO // DOM // RESPONSIVE WEB DESIGN HTML5 AND CSS3 // FIREFOX WEB DEVELOPER TOOLS //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/edu-webdesign.png",
+                            "icon": "icons/training/design.png",
                             "title": "WEB DESIGN & WEB INTEGRATION COURSES: FORMATO FORMACIÓN + ACADEMIA CIMBRA - MURCIA (SPAIN) - 2011/13",
                             "text": "// ADOBE CREATIVE SUITE: { PHOTOSHOP, DREAMWEAVER, FIREWORKS, FLASH PROFESSIONAL, IN-DESIGN, EDGE ANIMATE, AFTER-EFFECTS } // WEB INTEGRATION: { SITE USABILITY, SEO POSITIONING, WEB STANDARDS (W3C), BROWSER COMPATIBILITY, DIGITAL MARKETING TRENDS } //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/edu-architecture.png",
+                            "icon": "icons/training/architecture.png",
                             "title": "M. ARCHITECTURE ENGINEERING AND LANDSCAPE: UNIVERSITY OF ALICANTE - ALICANTE (SPAIN) - 2003/11",
                             "text": "// HOUSING AND PUBLIC FACILITIES // RENOVATION PROJECT // LANDSCAPE AND URBAN PLANNING // SUSTAINABLE HOUSING STRATEGIES // STRUCTURAL CALCULATION // HOME AUTOMATION PROJECTS // BUILDING SYSTEMS // PATHOLOGIES AND COST ESTIMATING //",
                             "link": ""
