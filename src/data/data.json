@@ -176,33 +176,33 @@
                     },
                     "body": [
                         {
-                            "icon": "icons/about-profile.png",
+                            "icon": "icons/contact/profile.png",
                             "title": "WHO I AM",
-                            "text": "<h4><strong>Manuel del Pozo</strong> || web developer + architect = <a class='green-a' href='http://www.adaptivepath.com/ideas/what-makes-a-design-technologist/'>design technologist</a></h4>",
-                            "link": "https://www.manueldelpozo.info/"
+                            "text": "MANUEL DEL POZO || FRONTEND DEVELOPER",
+                            "link": "https://manueldelpozo.github.io/portfolio/"
                         },
                         {
-                            "icon": "icons/about-address_telf.png",
-                            "title": "WHERE I AM",
-                            "text": "+34 686 12 09 34",
-                            "link": "callto://manudelpozo"
+                            "icon": "icons/contact/telephone.png",
+                            "title": "CALL ME",
+                            "text": "+34 644 85 11 50",
+                            "link": "tell:+34644851150"
                         },
                         {
-                            "icon": "icons/about-mail.png",
-                            "title": "HOW TO CONTACT ME",
+                            "icon": "icons/contact/email.png",
+                            "title": "EMAIL ME",
                             "text": "mdp.webdeveloper@gmail.com",
                             "link": "mailto:mdp.webdeveloper@gmail.com"
                         },
                         {
-                            "icon": "icons/about-linkedin.png",
-                            "title": "MY LINKEDIN PROFILE",
-                            "text": "www.linkedin.com/in/delpozodeveloper",
+                            "icon": "icons/contact/linkiedin.png",
+                            "title": "CHECK MY LINKEDIN PROFILE",
+                            "text": "linkedin.com/in/delpozodeveloper",
                             "link": "https://wwww.linkedin.com/in/delpozodeveloper"
                         },
                         {
-                            "icon": "icons/about-webprofile.png",
-                            "title": "MY REPOSITORIES",
-                            "text": "www.github.com/manueldelpozo",
+                            "icon": "icons/contact/github.png",
+                            "title": "DISCOVER MY REPOSITORIES",
+                            "text": "github.com/manueldelpozo",
                             "link": "https://www.github.com/manueldelpozo"
                         }
                     ]
