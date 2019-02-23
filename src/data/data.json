@@ -58,55 +58,55 @@
                     },
                     "body": [
                         {
-                            "icon": "icons/tech-frontend.png",
+                            "icon": "icons/skills/javascript.png",
                             "title": "JAVASCRIPT",
                             "text": "// ES6 // ANGULAR 2+ // REACT + REDUX // POLYMER 2+ // VUE // MATERIAL UI // TYPESCRIPT // LODASH // JQUERY // ",
                             "link": ""
                         },
                         {
-                            "icon": "icons/tech-frontend.png",
+                            "icon": "icons/skills/css.png",
                             "title": "CSS3",
                             "text": "// SASS // LESS // BOOTSTRAP 4 // FLEXBOX // BEM //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/tech-frontend.png",
+                            "icon": "icons/skills/magento.png",
                             "title": "CMS",
                             "text": "// WORDPRESS ADVANCED THEMING // MAGENTO 2 //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/tech-node.png",
+                            "icon": "icons/skills/testing.png",
                             "title": "UNIT-TEST",
                             "text": "// JUNIT // WCT // MOCHA JS // CHAI JS // SAUCELAB //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/tech-node.png",
+                            "icon": "icons/skills/webpack.png",
                             "title": "BUILD & DEPLOYMENT",
-                            "text": "// NODE JS // NPM // BOWER // WEBPACK // GULP // JENKINS // ARTIFACTORY // NOLIO // BAMBOO //",
+                            "text": "// NODE JS // NPM // YARN // BOWER // WEBPACK // GULP // JENKINS // ARTIFACTORY // NOLIO // BAMBOO //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/tech-scrum.png",
+                            "icon": "icons/skills/git.png",
                             "title": "WORKFLOW",
                             "text": "// GIT: { GITLAB, GITHUB, STASH + SOURCETREE, TORTOISE } // AGILE: { YOU-TRACK, JIRA, CONFLUENCE, MATTERMOST } // ",
                             "link": ""
                         },
                         {
-                            "icon": "icons/tech-backend.png",
+                            "icon": "icons/skills/php.png",
                             "title": "BACK-END",
                             "text": "// JAVA: { SPRING + MAVEN } // PHP: { SYMFONY 2.0 + DOCTRINE } // PYTHON // MYSQL // GRAPHQL //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/tech-graphic.png",
+                            "icon": "icons/skills/intellij.png",
                             "title": "IDE",
                             "text": "// WEBSTORM // PHPSTORM // INTELLIJ // SUBLIME // VISUAL STUDIO CODE // NETBEANS // SPRING TOOL SUITE //",
                             "link": ""
                         },
                         {
-                            "icon": "icons/tech-graphic.png",
+                            "icon": "icons/skills/invision.png",
                             "title": "UI/UX",
                             "text": "// PHOTOSHOP // DREAMWEAVER // EDGE ANIMATE // AFTER-EFFECTS // FLASH PRO // ILLUSTRATOR // INVISION //",
                             "link": ""
@@ -119,6 +119,24 @@
                         "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
                     },
                     "body": [
+                        {
+                            "icon": "icons/edu-webagile.png",
+                            "title": "AGILE DEVELOPMENT SPECIALIZATION: UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
+                            "text": "// KEY CONCEPTS OF AGILE PRODUCT DEVELOPMENT METHODOLOGY // SHARED PERSPECTIVE AND DRIVE TO VALUE USING PERSONAS AND PROBLEM SCENARIOS-DIAGNOSE // USE OF AGILE USER STORIES AND PROTOTYPES // FACILITATE NARRATIVE COLLABORATION WITH USER STORIES AND PROTOTYPES // TESTING AND VALIDATION BY ANALYZING AND DECIDING ON STORY BACKLOGS //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/edu-webagile.png",
+                            "title": "AGILE DEVELOPMENT SPECIALIZATION: UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
+                            "text": "// KEY CONCEPTS OF AGILE PRODUCT DEVELOPMENT METHODOLOGY // SHARED PERSPECTIVE AND DRIVE TO VALUE USING PERSONAS AND PROBLEM SCENARIOS-DIAGNOSE // USE OF AGILE USER STORIES AND PROTOTYPES // FACILITATE NARRATIVE COLLABORATION WITH USER STORIES AND PROTOTYPES // TESTING AND VALIDATION BY ANALYZING AND DECIDING ON STORY BACKLOGS //",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/edu-webagile.png",
+                            "title": "AGILE DEVELOPMENT SPECIALIZATION: UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
+                            "text": "// KEY CONCEPTS OF AGILE PRODUCT DEVELOPMENT METHODOLOGY // SHARED PERSPECTIVE AND DRIVE TO VALUE USING PERSONAS AND PROBLEM SCENARIOS-DIAGNOSE // USE OF AGILE USER STORIES AND PROTOTYPES // FACILITATE NARRATIVE COLLABORATION WITH USER STORIES AND PROTOTYPES // TESTING AND VALIDATION BY ANALYZING AND DECIDING ON STORY BACKLOGS //",
+                            "link": ""
+                        },
                         {
                             "icon": "icons/edu-webagile.png",
                             "title": "AGILE DEVELOPMENT SPECIALIZATION: UNIVERSITY OF VIRGINIA - ONLINE (coursera.org) - 2016",
@@ -147,18 +165,6 @@
                             "icon": "icons/edu-architecture.png",
                             "title": "M. ARCHITECTURE ENGINEERING AND LANDSCAPE: UNIVERSITY OF ALICANTE - ALICANTE (SPAIN) - 2003/11",
                             "text": "// HOUSING AND PUBLIC FACILITIES // RENOVATION PROJECT // LANDSCAPE AND URBAN PLANNING // SUSTAINABLE HOUSING STRATEGIES // STRUCTURAL CALCULATION // HOME AUTOMATION PROJECTS // BUILDING SYSTEMS // PATHOLOGIES AND COST ESTIMATING //",
-                            "link": ""
-                        },
-                        {
-                            "icon": "icons/edu-archiulster.png",
-                            "title": "BSC(HONS) ARCHITECTURAL TECHNOLOGY AND MANAGEMENT: UNIVERSITY OF ULSTER - BELFAST (NI UNITED KINGDOM) - 2008/09 ",
-                            "text": "// BUILDING SYSTEMS DETAILS // CAR SHOWROOM MUSEUM // SHOPPING MALL IN DONEGALL PLACE //",
-                            "link": ""
-                        },
-                        {
-                            "icon": "icons/edu-archicourses.png",
-                            "title": "OTHER ARCHITECTURE COURSES: UNIVERSITY OF ALICANTE + POLYTHEC. UNIVERSITY OF CARTAGENA - ALICANTE + MURCIA (SPAIN) - 2002/11",
-                            "text": "// BUILDING ENGINEERING // HOME AUTOMATION // UNIVERSAL ACCESIBILITY // SOFTWARE FOR STRUCTURAL CALCULATION // BUILDING CONCRETE PATHOLOGIES // VIRTUAL STGE DESIGN WITH 3DS-MAX //",
                             "link": ""
                         }
                     ]
