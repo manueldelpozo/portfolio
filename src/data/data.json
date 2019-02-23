@@ -14,38 +14,38 @@
                     },
                     "body": [
                         {
-                            "icon": "icons/works-ing.png",
+                            "icon": "icons/works/ing.png",
                             "title": "FRONT-END DEVELOPER: ING BANK (COGNIZANT)__BRUSSELS (BELGIUM)__2017/18 ",
                             "text": "DEVELOPMENT AND DELIVERY OF POLYMER PWA PROGRESSIVE WEB APPs WITHIN THE END-TO-END PROCESS // REUSE OF THE GUIDE UI COMPONENTS // CONTINUOUS INTEGRATION WITH PICARD - ARTIFACTORY - NOLIO // ING AGILE WAY OF WORKING // OMNICHANNEL SQUAD AND TRIBES FOR THE UNITE BE+NL PLATFORM //",
                             "link": "https://www.ing.be/"
                         },
                         {
-                            "icon": "icons/works-bankia.png",
+                            "icon": "icons/works/bankia.jpg",
                             "title": "FRONT-END DEVELOPER: BANKIA (GFT GROUP)__MADRID (SPAIN)__2017",
                             "text": "DEVELOPMENT AND MAINTENANCE OF ONLINE BUSINESS BANKING ENTERPRISE PLATFORM // RESTFUL WEB SERVICE WITH ANGULARJS // GRUNT AND GULP // GIT AND STASH // CONTINUOUS INTEGRATION WITH BAMBOO // SCRUM TEAM MEMBER //",
                             "link": "https://www.bankia.es/"
                         },
                         {
-                            "icon": "icons/works-cc.png",
-                            "title": "JAVASCRIPT UI DEVELOPER__SCRUM MASTER: C&C TECHNOLOGY (TKH GROUP)__LESZNO (POLAND)__2015/16",
+                            "icon": "icons/works/tkh.png",
+                            "title": "JAVASCRIPT UI DEVELOPER & SCRUM MASTER: C&C TECHNOLOGY (TKH GROUP)__LESZNO (POLAND)__2015/16",
                             "text": "DESIGN, DEVELOPMENT, INTEGRATION AND TESTING OF POLYMER WEB COMPONENTS FOR A GUI CATALOG // SCRUM MASTER: RETROSPECTIVE, REVIEW AND PLANNING // MAINTENANCE OF MOBILE APPLICATIONS // CREATION OF GULP TASKS FOR BUILDING PROCESS // VERSION CONTROL WITH GITLAB // CONTINUOUS INTEGRATION WITH JENKINS // ",
                             "link": "https://www.cctechnology.pl/"
                             },
                             {
-                            "icon": "icons/works-gopopup.png",
-                            "title": "FRONT-END DEVELOPER: GO-POPUP - BERLIN (GERMANY)__2015",
+                            "icon": "icons/works/gopopup.png",
+                            "title": "WEB APPLICATION DEVELOPER: GO-POPUP__BERLIN (GERMANY)__2015",
                             "text": "RESPONSIVE WEB DESIGN WITH LESS AND BOOTSTRAP // MAINTENANCE OF BACKBONE JS ON A PLAY FRAMEWORK // CONFIGURATION OF SCALA BUILD TOOL // DESIGN AND INTEGRATION OF PHP APPLICATION TO MIGRATE DATA // CUSTOM GOOGLE MAPS MARKERS // ADVANCED DEVELOPMENT OF WORDPRESS THEMES // VERSION CONTROL WITH GITHUB //  ",
                             "link": "https://www.gopopup.com/en"
                             },
                             {
-                            "icon": "icons/works-qsdm.png",
-                            "title": "UI/UX DESIGNER AND FRONT-END DEVELOPER: QUESERADEMI (STARTUP)__MADRID (SPAIN)__2012/15",
+                            "icon": "icons/works/qsdm.png",
+                            "title": "UI/UX DESIGNER & WEB DEVELOPER: QUESERADEMI.COM__MADRID (SPAIN)__2012/15",
                             "text": "MOCKUPS, WEB INTERFACE SKETCHES, WIREFRAMES AND STORYBOARDS // INTERACTIVE PROTOTYPES WITH FLASH  // PRODUCTION OF PROMOTIONAL VIDEOS                           // IMPLEMENTATION OF HIGHCHARTS AND TWITTER TYPEAHEAD // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN  // GOOGLE ANALYTICS TRACKING // INTEGRATION OF WORDPRESS BLOG // MANAGEMENT //",
                             "link": "https://queserademi.com/"
                             },
                             {
-                            "icon": "icons/works-au10etdeco.png",
-                            "title": "FLASH WEB DESIGNER: AU 10 ET DÉCO__CLERMONT FERRAND (FRANCE)__2011",
+                            "icon": "icons/works/au10etdeco.png",
+                            "title": "WEB DESIGNER: AU 10 ET DÉCO__CLERMONT FERRAND (FRANCE)__2011",
                             "text": "WEB PROJECT MANAGEMENT // USER INTERACTION DESIGN // CREATION OF FLASH ANIMATIONS // MOCKUPS AND PAGE LAYOUTS // DREAMWEAVER AND FLASH DESIGN //",
                             "link": "http://www.au10etdeco.com/"
                             }
