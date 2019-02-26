@@ -10,7 +10,7 @@ const Home = ({ body }) => (
         <Button variant="contained" 
                 color="default" 
                 component={Link}
-                to="/contact">
+                to={`${process.env.PUBLIC_URL}/contact`}>
             Contact me
         </Button>
         <Button variant="contained" 
