@@ -29,7 +29,7 @@ class Page extends PureComponent {
         return (
             <Fragment>
                 <Grid container spacing={24} justify="center" alignItems="center">
-                    <Grid item xs={10} sm={6}>
+                    <Grid item xs={10} sm={8} md={6}>
                         <Header title={content.header.title} 
                                 subtitle={content.header.subtitle}
                                 pages={this.props.pages} />

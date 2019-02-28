@@ -35,7 +35,7 @@ function ListGrid(props) {
                         secondary={
                             <Fragment>
                                 <Typography component="span" className={classes.inline} color="textPrimary">
-                                    {item.text}
+                                    {item.link ? <a href={item.link}>{item.text}</a> : item.text}
                                 </Typography>
                             </Fragment>
                         }

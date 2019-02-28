@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import PropTypes from 'prop-types'
 import Grid from './../Grid.js'
+//import MapContainer from './../MapContainer.js'
 
 const Works = ({ body }) => (
-    <Grid list={body} />
+    <Fragment>
+        <Grid list={body} />
+        
+    </Fragment>
 )
 
 Works.propTypes = {

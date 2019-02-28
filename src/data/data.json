@@ -171,8 +171,8 @@
                 },
                 "/contact": {
                     "header": {
-                        "title": "Welcome to my contact" ,
-                        "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
+                        "title": "Contact me" ,
+                        "subtitle": "Discover my LinkedIn profile, my Github repositories and let'talk"
                     },
                     "body": [
                         {

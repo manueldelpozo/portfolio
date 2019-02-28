@@ -1,8 +1,7 @@
 .App {
-  text-align: center;
-
   &-header {
     margin-top: 30px;
+    text-align: center;
 
     &__bubble {
       transition-property: all !important;
@@ -22,6 +21,14 @@
       min-height: 100vh;
     }
   }
+
+  &-contact-form {
+    text-align: start;
+
+    & > div {
+      margin-bottom: 15px; 
+    }
+  }
 }
 
 .App-logo {
@@ -39,5 +46,13 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.u-flex {
+  display: flex;
+
+  & > * {
+    flex: 1;
   }
 }
