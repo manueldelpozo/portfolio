@@ -68,8 +68,8 @@ const radioButton = ({ input, label, ...rest }) => (
   <FormControl>
     <FormLabel component="legend">{label}</FormLabel>
     <RadioGroup {...input} {...rest}>
-      <FormControlLabel value="period" control={<Radio />} label="Period" />
-      <FormControlLabel value="standard" control={<Radio />} label="Standard" />
+      <FormControlLabel value="Temporary" control={<Radio />} label="Temporary" />
+      <FormControlLabel value="Permanent" control={<Radio />} label="Permanent" />
     </RadioGroup>
   </FormControl>
 )
@@ -82,34 +82,10 @@ const renderFromHelper = ({ touched, error }) => {
   }
 }
 
-const renderSelectField = ({
-  input,
-  label,
-  meta: { touched, error },
-  children,
-  ...custom
-}) => (
-  <FormControl error={touched && error}>
-    <InputLabel htmlFor="age-native-simple">Age</InputLabel>
-    <Select
-      native
-      {...input}
-      {...custom}
-      inputProps={{
-        name: 'age',
-        id: 'age-native-simple'
-      }}
-    >
-      {children}
-    </Select>
-    {renderFromHelper({ touched, error })}
-  </FormControl>
-)
-
 const ContactForm = props => {
-  const { sendMessage, pristine, reset, submitting, classes } = props
+  const { handleSubmit, pristine, reset, submitting } = props
   return (
-    <form onSubmit={sendMessage} className="App-contact-form">
+    <form onSubmit={handleSubmit} className="App-contact-form">
       <div>
         <Field
           name="fullName"
@@ -126,8 +102,8 @@ const ContactForm = props => {
       </div>
       <div>
         <Field name="typeContract" component={radioButton} label="Type of Contract">
-          <Radio value="period" label="period" />
-          <Radio value="standard" label="standard" />
+          <Radio value="Temporary" label="temporary" />
+          <Radio value="Permanent" label="permanent" />
         </Field>
       </div>
       <div>
@@ -139,7 +115,7 @@ const ContactForm = props => {
           component={renderTextField}
           label="Comment"
           multiline
-          rowsMax="4"
+          rowsMax="20"
           margin="normal"
           variant="filled"
           fullWidth
