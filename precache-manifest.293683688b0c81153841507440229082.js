@@ -1,35 +1,31 @@
 self.__precacheManifest = [
   {
-    "revision": "010c1aeee3c6d1cbb1d5761d80353823",
-    "url": "/portfolio/static/media/roboto-latin-700italic.010c1aee.woff2"
+    "revision": "846d1890aee87fde5d8ced8eba360c3a",
+    "url": "/portfolio/static/media/roboto-latin-700italic.846d1890.woff"
   },
   {
-    "revision": "b831d5dedd2af65bd95a",
-    "url": "/portfolio/static/css/main.ecca9390.chunk.css"
+    "revision": "b175aa99ac1a18f7936b",
+    "url": "/portfolio/static/css/main.f52e1561.chunk.css"
   },
   {
     "revision": "698fcd0806ae1ca323e8e7d132d53087",
     "url": "/portfolio/static/media/qsdm.698fcd08.png"
   },
   {
-    "revision": "5364a29f67bbd16f4649",
-    "url": "/portfolio/static/js/1.5364a29f.chunk.js"
+    "revision": "424393a5476a5af00c92",
+    "url": "/portfolio/static/js/1.424393a5.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
     "url": "/portfolio/static/js/runtime~main.ee2a1003.js"
   },
   {
-    "revision": "6794c78f7802103deffbae816725af72",
-    "url": "/portfolio/static/media/CV_Manuel_delPozo_FrontEndDeveloper.6794c78f.pdf"
+    "revision": "987b84570ea69ee660455b8d5e91f5f1",
+    "url": "/portfolio/static/media/roboto-latin-100.987b8457.woff2"
   },
   {
     "revision": "e9dbbe8a693dd275c16d32feb101f1c1",
     "url": "/portfolio/static/media/roboto-latin-100.e9dbbe8a.woff"
-  },
-  {
-    "revision": "987b84570ea69ee660455b8d5e91f5f1",
-    "url": "/portfolio/static/media/roboto-latin-100.987b8457.woff2"
   },
   {
     "revision": "6232f43d15b0e7a0bf0fe82e295bdd06",
@@ -52,16 +48,20 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/roboto-latin-300italic.d69924b9.woff2"
   },
   {
-    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
-    "url": "/portfolio/static/media/roboto-latin-400.bafb105b.woff"
-  },
-  {
     "revision": "210a7c781f5a354a0e4985656ab456d9",
     "url": "/portfolio/static/media/roboto-latin-300italic.210a7c78.woff"
   },
   {
     "revision": "5d4aeb4e5f5ef754e307d7ffaef688bd",
     "url": "/portfolio/static/media/roboto-latin-400.5d4aeb4e.woff2"
+  },
+  {
+    "revision": "bafb105baeb22d965c70fe52ba6b49d9",
+    "url": "/portfolio/static/media/roboto-latin-400.bafb105b.woff"
+  },
+  {
+    "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
+    "url": "/portfolio/static/media/roboto-latin-400italic.9680d5a0.woff"
   },
   {
     "revision": "d8bcbe724fd6f4ba44d0ee6a2675890f",
@@ -72,10 +72,6 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/roboto-latin-500.28546717.woff2"
   },
   {
-    "revision": "9680d5a0c32d2fd084e07bbc4c8b2923",
-    "url": "/portfolio/static/media/roboto-latin-400italic.9680d5a0.woff"
-  },
-  {
     "revision": "de8b7431b74642e830af4d4f4b513ec9",
     "url": "/portfolio/static/media/roboto-latin-500.de8b7431.woff"
   },
@@ -84,32 +80,32 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/roboto-latin-500italic.510dec37.woff2"
   },
   {
-    "revision": "037d830416495def72b7881024c14b7b",
-    "url": "/portfolio/static/media/roboto-latin-700.037d8304.woff2"
-  },
-  {
     "revision": "ffcc050b2d92d4b14a4fcb527ee0bcc8",
     "url": "/portfolio/static/media/roboto-latin-500italic.ffcc050b.woff"
+  },
+  {
+    "revision": "037d830416495def72b7881024c14b7b",
+    "url": "/portfolio/static/media/roboto-latin-700.037d8304.woff2"
   },
   {
     "revision": "cf6613d1adf490972c557a8e318e0868",
     "url": "/portfolio/static/media/roboto-latin-700.cf6613d1.woff"
   },
   {
-    "revision": "b831d5dedd2af65bd95a",
-    "url": "/portfolio/static/js/main.b831d5de.chunk.js"
+    "revision": "010c1aeee3c6d1cbb1d5761d80353823",
+    "url": "/portfolio/static/media/roboto-latin-700italic.010c1aee.woff2"
   },
   {
-    "revision": "846d1890aee87fde5d8ced8eba360c3a",
-    "url": "/portfolio/static/media/roboto-latin-700italic.846d1890.woff"
-  },
-  {
-    "revision": "8c2ade503b34e31430d6c98aa29a52a3",
-    "url": "/portfolio/static/media/roboto-latin-900.8c2ade50.woff"
+    "revision": "b175aa99ac1a18f7936b",
+    "url": "/portfolio/static/js/main.b175aa99.chunk.js"
   },
   {
     "revision": "19b7a0adfdd4f808b53af7e2ce2ad4e5",
     "url": "/portfolio/static/media/roboto-latin-900.19b7a0ad.woff2"
+  },
+  {
+    "revision": "8c2ade503b34e31430d6c98aa29a52a3",
+    "url": "/portfolio/static/media/roboto-latin-900.8c2ade50.woff"
   },
   {
     "revision": "7b770d6c53423deb1a8e49d3c9175184",
@@ -122,6 +118,10 @@ self.__precacheManifest = [
   {
     "revision": "9f23b994ff1db4b7094a91ff78cb8fae",
     "url": "/portfolio/static/media/CNAME.9f23b994.bin"
+  },
+  {
+    "revision": "6794c78f7802103deffbae816725af72",
+    "url": "/portfolio/static/media/CV_Manuel_delPozo_FrontEndDeveloper.6794c78f.pdf"
   },
   {
     "revision": "f23d2782bd0a7cf0ad5c38e73f8c75ad",
@@ -184,11 +184,11 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/ing.8e9cd278.png"
   },
   {
-    "revision": "5364a29f67bbd16f4649",
+    "revision": "424393a5476a5af00c92",
     "url": "/portfolio/static/css/1.d2b71429.chunk.css"
   },
   {
-    "revision": "e9641a7a927cb514ebcadbeb8e12e3f2",
+    "revision": "cce43d0d9905f250e09023cf1326966d",
     "url": "/portfolio/index.html"
   }
 ];
