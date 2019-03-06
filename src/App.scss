@@ -3,6 +3,10 @@
     margin-top: 30px;
     text-align: center;
 
+    &__nav {
+      margin-bottom: 30px;
+    }
+
     &__bubble {
       transition-property: all !important;
     }

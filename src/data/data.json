@@ -5,12 +5,28 @@
                         "title": "Welcome to my web portfolio",
                         "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
                     },
-                    "body": "This is Home"
+                    "body": {
+                        "text": "I’m Manuel del Pozo, creator and Frontend developer. I help companies and entrepreneurs build digital experiences their users enjoy.",
+                        "buttons": [
+                            {
+                                "text": "CONTACT ME",
+                                "icon": "mail",
+                                "link": "/contact",
+                                "download": false
+                            },
+                            {
+                                "text": "GET MY CV",
+                                "icon": "archive",
+                                "link": "./../../assets/CV_Manuel_delPozo_FrontEndDeveloper.pdf",
+                                "download": true
+                            }
+                        ]
+                    }
                 },
                 "/works": {
                     "header": {
-                        "title": "Find out all the information about my work experience in web development" ,
-                        "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
+                        "title": "Where I worked" ,
+                        "subtitle": "Find out all the information about my work experience in web development"
                     },
                     "body": [
                         {
@@ -53,8 +69,8 @@
                 },
                 "/skills": {
                     "header": {
-                        "title": "Have a look and discover the information about my personal skills, my academic experience and my technical abilities" ,
-                        "subtitle": ""
+                        "title": "What I can do" ,
+                        "subtitle": "Have a look and discover the information about my technical abilities"
                     },
                     "body": [
                         {
@@ -115,8 +131,8 @@
                 },
                 "/training": {
                     "header": {
-                        "title": "Welcome to my training" ,
-                        "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
+                        "title": "What I learned" ,
+                        "subtitle": "Don't ask what the world can offer you, but what you can offer the world?"
                     },
                     "body": [
                         {
@@ -171,8 +187,8 @@
                 },
                 "/contact": {
                     "header": {
-                        "title": "Contact me" ,
-                        "subtitle": "Discover my LinkedIn profile, my Github repositories and let'talk"
+                        "title": "How to find me" ,
+                        "subtitle": "Check my LinkedIn profile, my Github repositories and let's talk"
                     },
                     "body": [
                         {

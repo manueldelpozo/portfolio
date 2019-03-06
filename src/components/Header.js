@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import { NavLink as Link } from 'react-router-dom'
 import Bubble from './Bubble.js'
 import Grid from '@material-ui/core/Grid'
+import Typography from '@material-ui/core/Typography'
+import Divider from '@material-ui/core/Divider'
 
 const Header = (props) => {
     const links = props.pages.map(page => 
@@ -14,19 +16,30 @@ const Header = (props) => {
     )
     return (
         <header className="App-header">
-            <nav>
+            <nav className="App-header__nav">
                 <Grid 
                     container 
                     spacing={16} 
                     direction="row"
                     justify="center"
                     alignItems="center">
-                        
                         {links}
                 </Grid>
             </nav>
-            <h1>{props.title}</h1>
-            <h2>{props.subtitle}</h2>
+            <Typography className="App-header__title"
+                        align="center" 
+                        gutterBottom
+                        color="white"
+                        variant="h2">
+                {props.title}
+            </Typography>
+            <Typography align="center" 
+                        gutterBottom
+                        color="textSecondary"
+                        variant="h5">
+                {props.subtitle}
+            </Typography>
+            <Divider/>
         </header>
     )
 }
