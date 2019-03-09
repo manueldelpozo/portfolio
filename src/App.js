@@ -13,10 +13,10 @@ import Contact from './components/pages/Contact.js'
 
 import data from './data/data.json'
 
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
-import teal from '@material-ui/core/colors/teal';
-import blueGrey from '@material-ui/core/colors/blueGrey';
-import red from '@material-ui/core/colors/red';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
+import teal from '@material-ui/core/colors/teal'
+import blueGrey from '@material-ui/core/colors/blueGrey'
+import red from '@material-ui/core/colors/red'
 
 const theme = createMuiTheme({
   palette: {
@@ -24,13 +24,18 @@ const theme = createMuiTheme({
       main: teal[400]
     },
     secondary: { 
-      main: blueGrey[900]
+      main: blueGrey[900],
+      contrastText: teal[400]
+    },
+    text: {
+      secondary: '#FFFFFF'
     },
     error: red,
     contrastThreshold: 3,
     tonalOffset: 0.2,
   },
   typography: {
+    useNextVariants: true,
     // Use the system font instead of the default Roboto font.
     fontFamily: [
       '-apple-system',

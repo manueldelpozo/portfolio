@@ -2,11 +2,11 @@
             "en": {
                 "/": {
                     "header": {
-                        "title": "Welcome to my web portfolio",
-                        "subtitle": "— Ideate romantically, create pragmatically, design everything you do. —"
+                        "title": "Hola!",
+                        "subtitle": "« Ideate romantically, create pragmatically, design everything you do. »"
                     },
                     "body": {
-                        "text": "I’m Manuel del Pozo, creator and Frontend developer. I help companies and entrepreneurs build digital experiences their users enjoy.",
+                        "text": "This is Manuel del Pozo, creator and Frontend developer. I help companies and entrepreneurs build digital experiences their users enjoy.",
                         "buttons": [
                             {
                                 "text": "CONTACT ME",
@@ -70,7 +70,7 @@
                 "/skills": {
                     "header": {
                         "title": "What I can do" ,
-                        "subtitle": "Have a look and discover the information about my technical abilities"
+                        "subtitle": "Have a look and discover my Tech tacks"
                     },
                     "body": [
                         {
@@ -132,7 +132,7 @@
                 "/training": {
                     "header": {
                         "title": "What I learned" ,
-                        "subtitle": "Don't ask what the world can offer you, but what you can offer the world?"
+                        "subtitle": "« If you can dream it, you can do it »"
                     },
                     "body": [
                         {
@@ -188,7 +188,7 @@
                 "/contact": {
                     "header": {
                         "title": "How to find me" ,
-                        "subtitle": "Check my LinkedIn profile, my Github repositories and let's talk"
+                        "subtitle": "Looking for a web developer?"
                     },
                     "body": [
                         {

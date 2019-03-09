@@ -29,7 +29,7 @@ const Header = (props) => {
             <Typography className="App-header__title"
                         align="center" 
                         gutterBottom
-                        color="white"
+                        color="textSecondary"
                         variant="h2">
                 {props.title}
             </Typography>
