@@ -33,6 +33,26 @@
       margin-bottom: 15px; 
     }
   }
+
+  &-map {
+    height: 400px;
+
+    .leaflet-container {
+      height: 400px;
+      width: 100%;
+    }
+
+    .leaflet-popup-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        margin-top: 10px;
+      }
+    }
+  }
 }
 
 .App-logo {

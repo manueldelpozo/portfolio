@@ -26,45 +26,75 @@
                 "/works": {
                     "header": {
                         "title": "Where I worked" ,
-                        "subtitle": "Find out all the information about my work experience in web development"
+                        "subtitle": "Working on multiple fields in different countries in Europe has provided me with technical abilities to take part in innovative, varied and adaptable projects"
                     },
                     "body": [
                         {
                             "icon": "icons/works/ing.png",
                             "title": "FRONT-END DEVELOPER: ING BANK (COGNIZANT)__BRUSSELS (BELGIUM)__2017/18 ",
-                            "text": "DEVELOPMENT AND DELIVERY OF POLYMER PWA PROGRESSIVE WEB APPs WITHIN THE END-TO-END PROCESS // REUSE OF THE GUIDE UI COMPONENTS // CONTINUOUS INTEGRATION WITH PICARD - ARTIFACTORY - NOLIO // ING AGILE WAY OF WORKING // OMNICHANNEL SQUAD AND TRIBES FOR THE UNITE BE+NL PLATFORM //",
-                            "link": "https://www.ing.be/"
+                            "text": "DEVELOPMENT AND DELIVERY OF PROGRESSIVE WEB APP FOR THE ING HOME’BANK PLATFORM WITHIN END-TO-END PROCESS // REUSE OF THE GUIDE UI COMPONENTS // CONTINUOUS INTEGRATION WITH PICARD - ARTIFACTORY - NOLIO // ING AGILE WAY OF WORKING // OMNICHANNEL SQUAD AND TRIBES FOR THE UNITE BE+NL PLATFORM //",
+                            "link": "https://www.ing.be/",
+                            "location": {
+                                "city": "Brussels",
+                                "lat": 50.8503396,
+                                "lng": 4.3517103        
+                            }
                         },
                         {
                             "icon": "icons/works/bankia.jpg",
                             "title": "FRONT-END DEVELOPER: BANKIA (GFT GROUP)__MADRID (SPAIN)__2017",
                             "text": "DEVELOPMENT AND MAINTENANCE OF ONLINE BUSINESS BANKING ENTERPRISE PLATFORM // RESTFUL WEB SERVICE WITH ANGULARJS // GRUNT AND GULP // GIT AND STASH // CONTINUOUS INTEGRATION WITH BAMBOO // SCRUM TEAM MEMBER //",
-                            "link": "https://www.bankia.es/"
+                            "link": "https://www.bankia.es/",
+                            "location": {
+                                "city": "Madrid",
+                                "lat": 40.416775,
+                                "lng": -3.703790
+                            }
                         },
                         {
                             "icon": "icons/works/tkh.png",
                             "title": "JAVASCRIPT UI DEVELOPER & SCRUM MASTER: C&C TECHNOLOGY (TKH GROUP)__LESZNO (POLAND)__2015/16",
                             "text": "DESIGN, DEVELOPMENT, INTEGRATION AND TESTING OF POLYMER WEB COMPONENTS FOR A GUI CATALOG // SCRUM MASTER: RETROSPECTIVE, REVIEW AND PLANNING // MAINTENANCE OF MOBILE APPLICATIONS // CREATION OF GULP TASKS FOR BUILDING PROCESS // VERSION CONTROL WITH GITLAB // CONTINUOUS INTEGRATION WITH JENKINS // ",
-                            "link": "https://www.cctechnology.pl/"
-                            },
-                            {
+                            "link": "https://www.cctechnology.pl/",
+                            "location": {
+                                "city": "Leszno",
+                                "lat": 51.829760,
+                                "lng": 16.597281
+                            }
+                        },
+                        {
                             "icon": "icons/works/gopopup.png",
                             "title": "WEB APPLICATION DEVELOPER: GO-POPUP__BERLIN (GERMANY)__2015",
                             "text": "RESPONSIVE WEB DESIGN WITH LESS AND BOOTSTRAP // MAINTENANCE OF BACKBONE JS ON A PLAY FRAMEWORK // CONFIGURATION OF SCALA BUILD TOOL // DESIGN AND INTEGRATION OF PHP APPLICATION TO MIGRATE DATA // CUSTOM GOOGLE MAPS MARKERS // ADVANCED DEVELOPMENT OF WORDPRESS THEMES // VERSION CONTROL WITH GITHUB //  ",
-                            "link": "https://www.gopopup.com/en"
-                            },
-                            {
+                            "link": "https://www.gopopup.com/en",
+                            "location": {
+                                "city": "Berlin",
+                                "lat": 52.520007,
+                                "lng": 13.404954       
+                            }
+                        },
+                        {
                             "icon": "icons/works/qsdm.png",
                             "title": "UI/UX DESIGNER & WEB DEVELOPER: QUESERADEMI.COM__MADRID (SPAIN)__2012/15",
                             "text": "MOCKUPS, WEB INTERFACE SKETCHES, WIREFRAMES AND STORYBOARDS // INTERACTIVE PROTOTYPES WITH FLASH  // PRODUCTION OF PROMOTIONAL VIDEOS                           // IMPLEMENTATION OF HIGHCHARTS AND TWITTER TYPEAHEAD // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN  // GOOGLE ANALYTICS TRACKING // INTEGRATION OF WORDPRESS BLOG // MANAGEMENT //",
-                            "link": "https://queserademi.com/"
-                            },
-                            {
+                            "link": "https://queserademi.com/",
+                            "location": {
+                                "city": "Murcia",
+                                "lat": 37.992240,
+                                "lng": -1.130654        
+                            }
+                        },
+                        {
                             "icon": "icons/works/au10etdeco.png",
                             "title": "WEB DESIGNER: AU 10 ET DÉCO__CLERMONT FERRAND (FRANCE)__2011",
                             "text": "WEB PROJECT MANAGEMENT // USER INTERACTION DESIGN // CREATION OF FLASH ANIMATIONS // MOCKUPS AND PAGE LAYOUTS // DREAMWEAVER AND FLASH DESIGN //",
-                            "link": "http://www.au10etdeco.com/"
+                            "link": "http://www.au10etdeco.com/",
+                            "location": {
+                                "city": "Clermont-Ferrand",
+                                "lat": 45.777222,
+                                "lng": 3.087025       
                             }
+                        }
                     ]
                 },
                 "/skills": {
