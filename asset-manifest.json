@@ -8,7 +8,7 @@
   "runtime~main.js": "/portfolio/static/js/runtime~main.ee2a1003.js",
   "runtime~main.js.map": "/portfolio/static/js/runtime~main.ee2a1003.js.map",
   "static/media/telephone.png": "/portfolio/static/media/telephone.2b0c9b91.png",
-  "static/media/index.css": "/portfolio/static/media/roboto-latin-100italic.d704bb3d.woff",
+  "static/media/index.css": "/portfolio/static/media/roboto-latin-100italic.6232f43d.woff2",
   "static/media/CNAME": "/portfolio/static/media/CNAME.9f23b994.bin",
   "static/media/CV_Manuel_delPozo_FrontEndDeveloper.pdf": "/portfolio/static/media/CV_Manuel_delPozo_FrontEndDeveloper.6794c78f.pdf",
   "static/media/profile.png": "/portfolio/static/media/profile.f23d2782.png",
@@ -29,6 +29,6 @@
   "static/css/main.a281bf43.chunk.css.map": "/portfolio/static/css/main.a281bf43.chunk.css.map",
   "static/css/1.122e9392.chunk.css.map": "/portfolio/static/css/1.122e9392.chunk.css.map",
   "index.html": "/portfolio/index.html",
-  "precache-manifest.eb75ee42c30024d7db363724ad1653c2.js": "/portfolio/precache-manifest.eb75ee42c30024d7db363724ad1653c2.js",
+  "precache-manifest.e8bb2f09b46f3171d5bf48403957ed3b.js": "/portfolio/precache-manifest.e8bb2f09b46f3171d5bf48403957ed3b.js",
   "service-worker.js": "/portfolio/service-worker.js"
 }
