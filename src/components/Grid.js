@@ -14,7 +14,7 @@ const styles = theme => ({
         flexWrap: 'wrap',
         justifyContent: 'space-around',
         overflow: 'hidden',
-        backgroundColor: theme.palette.background.paper,
+        backgroundColor: `rgba(${theme.palette.background.transparent},0)`,
     },
     gridList: {
         width: 500,

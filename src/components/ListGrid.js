@@ -13,7 +13,7 @@ const styles = theme => ({
     root: {
         width: '100%',
         maxWidth: 360,
-        backgroundColor: theme.palette.background.paper,
+        backgroundColor: `rgba(${theme.palette.background.transparent},0)`,
     },
     inline: {
         display: 'inline',

@@ -10,9 +10,8 @@ const Home = ({ body }) => (
     <Fragment>
         <Typography align="center" 
                     color="textSecondary"
-                    paragraph
-                    variant="subheading"
-                    >{body.text}
+                    paragraph>
+                    {body.text}
         </Typography>
         <Grid container spacing={24} justify="center" alignItems="center">
             {
