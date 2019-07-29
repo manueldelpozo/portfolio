@@ -13,13 +13,15 @@ import RadioGroup from '@material-ui/core/RadioGroup'
 import Button from '@material-ui/core/Button'
 import asyncValidate from './asyncValidate'
 
+const requiredFields = [
+  'fullName',
+  'email',
+  'comment'
+]
+
 const validate = values => {
   const errors = {}
-  const requiredFields = [
-    'fullName',
-    'email',
-    'comment'
-  ]
+  
   requiredFields.forEach(field => {
     if (!values[field]) {
       errors[field] = 'Required'
@@ -74,7 +76,7 @@ const radioButton = ({ input, label, ...rest }) => (
   </FormControl>
 )
 
-const renderFromHelper = ({ touched, error }) => {
+const renderFormHelper = ({ touched, error }) => {
   if (!(touched && error)) {
     return
   } else {
@@ -92,13 +94,14 @@ const ContactForm = props => {
           component={renderTextField}
           label="Full Name"
           fullWidth
+          required
         />
       </div>
       <div>
         <Field name="companyName" component={renderTextField} label="Company Name" fullWidth />
       </div>
       <div>
-        <Field name="email" component={renderTextField} label="Email" fullWidth />
+        <Field name="email" component={renderTextField} label="Email" fullWidth required />
       </div>
       <div>
         <Field name="typeContract" component={radioButton} label="Type of Contract">
@@ -119,11 +122,12 @@ const ContactForm = props => {
           margin="normal"
           variant="filled"
           fullWidth
+          required
         />
       </div>
       <div className="u-flex">
         <Button type="submit" 
-                color="primary"
+                color="secondary"
                 variant="outlined" 
                 disabled={pristine || submitting}>
           Send
