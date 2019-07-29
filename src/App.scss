@@ -1,5 +1,10 @@
+#root {
+  height: 100%;
+}
+
 .App {
   position: relative;
+  min-height: 100%;
   
   &-header {
     margin-top: 30px;
@@ -54,6 +59,10 @@
         margin-top: 10px;
       }
     }
+  }
+
+  &-home__actions {
+    margin-top: 50px;
   }
 }
 

@@ -13,26 +13,28 @@ const Home = ({ body }) => (
                     paragraph>
                     {body.text}
         </Typography>
-        <Grid container spacing={24} justify="center" alignItems="center">
-            {
-                body.buttons.map(button => 
-                    <Grid item xs={12} sm={6} key={button.text}>
-                        <Button variant="contained" 
-                                color="default" 
-                                fullWidth
-                                component={ button.download ? "a" : Link }
-                                {
-                                    ...((button.download && 
-                                    { href: button.link, download: true }) || 
-                                    { to: process.env.PUBLIC_URL + button.link })
-                                }>
-                            <Icon fontSize="default">{button.icon}</Icon>
-                            {button.text}
-                        </Button>
-                    </Grid>
-                )
-            }
-        </Grid>
+        <div className="App-home__actions">
+            <Grid container spacing={24} justify="center" alignItems="center">
+                {
+                    body.buttons.map(button => 
+                        <Grid item xs={12} sm={6} key={button.text}>
+                            <Button variant="contained" 
+                                    color="default" 
+                                    fullWidth
+                                    component={ button.download ? "a" : Link }
+                                    {
+                                        ...((button.download && 
+                                        { href: button.link, download: true }) || 
+                                        { to: process.env.PUBLIC_URL + button.link })
+                                    }>
+                                <Icon fontSize="default">{button.icon}</Icon>
+                                {button.text}
+                            </Button>
+                        </Grid>
+                    )
+                }
+            </Grid>
+        </div>
     </Fragment>
 )
 

@@ -28,7 +28,7 @@ class Page extends PureComponent {
         const content = this.props.content[this.props.location.pathname.replace(process.env.PUBLIC_URL, '')]
         return (
             <Fragment>
-                <Grid container spacing={24} justify="center" alignItems="center">
+                <Grid container justify="center" alignItems="center">
                     <Grid item xs={10} sm={8} md={6}>
                         <Header title={content.header.title} 
                                 subtitle={content.header.subtitle}
