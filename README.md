@@ -1,6 +1,8 @@
-Visit my portfolio published in GitHub Pages: `https://manueldelpozo.github.io/portfolio/`
+This SPA is a React application structured by 5 pages that display my work experience, training and other details of my professional profile. When the route changes the header component is also rerender with a new navigation menu. Animations and widgets use Material UI components. The work experience page contains a Map component that integrates React Leaflet library. The contact page form is validated asynchronously with Redux Form. The comment text area is auto-filled on input text in the initial form fields. The app is hosted in the repository Github Pages.
 
-Simple React app with React Router, Redux Forms, React Leaflet, and Material UI.
+Technologies used: React, React Router, Redux Form, React Leaflet, Material UI, Proptypes, Sass, Webpack, Yarn, Github Pages
+
+Visit my portfolio published in Github Pages: `https://manueldelpozo.github.io/portfolio/`
 
 ## Available Scripts
 
