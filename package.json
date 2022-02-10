@@ -8,7 +8,7 @@
     "@material-ui/icons": "^3.0.1",
     "gh-pages": "^2.0.1",
     "leaflet": "^1.4.0",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-leaflet": "^2.2.1",
