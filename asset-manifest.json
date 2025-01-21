@@ -1,17 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.25119bb3.css",
-    "main.js": "/portfolio/static/js/main.77790750.js",
-    "static/media/CV_Manuel_delPozo_FrontEndDeveloper.pdf": "/portfolio/static/media/CV_Manuel_delPozo_FrontEndDeveloper.c4be2bcf4b7903bfcf77.pdf",
+    "main.js": "/portfolio/static/js/main.12dc8802.js",
+    "static/media/CV_Manuel_delPozo_FrontEndDeveloper.pdf": "/portfolio/static/media/CV_Manuel_delPozo_FrontEndDeveloper.b09731fc5e4bea5a80ae.pdf",
     "static/media/react.png": "/portfolio/static/media/react.b7830389ef0a32758a8e.png",
     "static/media/icono.jpg": "/portfolio/static/media/icono.2b36a34f59f6986b288e.jpg",
     "static/media/ing.png": "/portfolio/static/media/ing.4edf8f7f91545a7a7e2f.png",
     "static/media/intellij.png": "/portfolio/static/media/intellij.3ea98cbd5e66149e0905.png",
     "static/media/gopopup.png": "/portfolio/static/media/gopopup.eb858b6795c8bb60666c.png",
+    "static/media/boozt.jpeg": "/portfolio/static/media/boozt.1266bb5fddd7a5a0dbaa.jpeg",
     "static/media/map-europe.png": "/portfolio/static/media/map-europe.86b19d1fb89b25271640.png",
     "static/media/polymer.png": "/portfolio/static/media/polymer.fa38d245a02b25c3039f.png",
     "static/media/css.png": "/portfolio/static/media/css.9a088dd12159725b7a63.png",
     "static/media/design.png": "/portfolio/static/media/design.adf55fb66ebfb7441a99.png",
+    "static/media/macopedia.webp": "/portfolio/static/media/macopedia.d2def879245d7a8d9a6b.webp",
     "static/media/mobileapp.png": "/portfolio/static/media/mobileapp.2dadbd5fd17e3e6b0bbe.png",
     "static/media/architecture.png": "/portfolio/static/media/architecture.c19364751be0f28d1f48.png",
     "static/media/invision.png": "/portfolio/static/media/invision.2b42e713fbe95c813c91.png",
@@ -46,10 +48,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/CNAME": "/portfolio/static/media/CNAME.c40590b75d18ba80ca19",
     "main.25119bb3.css.map": "/portfolio/static/css/main.25119bb3.css.map",
-    "main.77790750.js.map": "/portfolio/static/js/main.77790750.js.map"
+    "main.12dc8802.js.map": "/portfolio/static/js/main.12dc8802.js.map"
   },
   "entrypoints": [
     "static/css/main.25119bb3.css",
-    "static/js/main.77790750.js"
+    "static/js/main.12dc8802.js"
   ]
 }
