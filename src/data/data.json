@@ -30,9 +30,31 @@
                     },
                     "body": [
                         {
+                            "icon": "icons/works/boozt.jpeg",
+                            "title": "TECH LEAD FRONT-END DEVELOPER: // BOOZT__POZNAŃ (POLAND)__MALMÖ (SWEDEN)__2020-2025",
+                            "text": "LED THE DEVELOPMENT AND MAINTENANCE OF INTERNAL PORTAL APPS SUPPORTING SUPPLY CHAIN DEPARTMENT // MODERN FE ARCHITECTURE IN FINANCE SYSTEM // EMAIL-TICKET MANAGEMENT SYSTEM TO STREAMLINE COMMUNICATION WITH VENDORS",
+                            "link": "https://www.boozt.com/",
+                            "location": {
+                                "city": "Malmö",
+                                "lat": 55.606216,
+                                "lng": 12.986389        
+                            }
+                        },
+                        {
+                            "icon": "icons/works/macopedia.webp",
+                            "title": "SENIOR FRONT-END DEVELOPER: // MACOPEDIA__POZNAŃ (POLAND)__2019",
+                            "text": "DEVELOPMENT AND MAINTENANCE NEW BRANDING PAGE FOR ROLEX // HIGH PERFORMANCE ALIGNED TO PREMIUM STANDARDS // INTEGRATION OF VUE STOREFRONT INTO MAGENTO BASED B2B E-COMMERCE PLATFORMS",
+                            "link": "https://www.macopedia.com/",
+                            "location": {
+                                "city": "Poznań",
+                                "lat": 52.406376,
+                                "lng": 16.925168        
+                            }
+                        },
+                        {
                             "icon": "icons/works/ing.png",
-                            "title": "FRONT-END DEVELOPER: ING BANK (COGNIZANT)__BRUSSELS (BELGIUM)__2017/18 ",
-                            "text": "DEVELOPMENT AND DELIVERY OF PROGRESSIVE WEB APP FOR THE ING HOME’BANK PLATFORM WITHIN END-TO-END PROCESS // REUSE OF THE GUIDE UI COMPONENTS // CONTINUOUS INTEGRATION WITH PICARD - ARTIFACTORY - NOLIO // ING AGILE WAY OF WORKING // OMNICHANNEL SQUAD AND TRIBES FOR THE UNITE BE+NL PLATFORM //",
+                            "title": "SENIOR FRONT-END DEVELOPER: // ING BANK__BRUSSELS (BELGIUM)__2017-2018",
+                            "text": "BUILD AND ROLL-OUT OF PWA FOR THE ING HOME-BANK PLATFORM // FULL-STACK POLICY MANAGEMENT APP",
                             "link": "https://www.ing.be/",
                             "location": {
                                 "city": "Brussels",
@@ -53,8 +75,8 @@
                         },
                         {
                             "icon": "icons/works/tkh.png",
-                            "title": "JAVASCRIPT UI DEVELOPER & SCRUM MASTER: C&C TECHNOLOGY (TKH GROUP)__LESZNO (POLAND)__2015/16",
-                            "text": "DESIGN, DEVELOPMENT, INTEGRATION AND TESTING OF POLYMER WEB COMPONENTS FOR A GUI CATALOG // SCRUM MASTER: RETROSPECTIVE, REVIEW AND PLANNING // MAINTENANCE OF MOBILE APPLICATIONS // CREATION OF GULP TASKS FOR BUILDING PROCESS // VERSION CONTROL WITH GITLAB // CONTINUOUS INTEGRATION WITH JENKINS // ",
+                            "title": "SCRUM MASTER & JAVASCRIPT-UI DEVELOPER: // C&C (TKH GROUP)__LESZNO (POLAND)__2015-2017",
+                            "text": "DESIGN, DEVELOPMENT AND TESTING OF PURE WEB COMPONENTS (POLYMER) FOR GUI CATALOG ",
                             "link": "https://www.cctechnology.pl/",
                             "location": {
                                 "city": "Leszno",
@@ -64,8 +86,8 @@
                         },
                         {
                             "icon": "icons/works/gopopup.png",
-                            "title": "WEB APPLICATION DEVELOPER: GO-POPUP__BERLIN (GERMANY)__2015",
-                            "text": "RESPONSIVE WEB DESIGN WITH LESS AND BOOTSTRAP // MAINTENANCE OF BACKBONE JS ON A PLAY FRAMEWORK // CONFIGURATION OF SCALA BUILD TOOL // DESIGN AND INTEGRATION OF PHP APPLICATION TO MIGRATE DATA // CUSTOM GOOGLE MAPS MARKERS // ADVANCED DEVELOPMENT OF WORDPRESS THEMES // VERSION CONTROL WITH GITHUB //  ",
+                            "title": "FULL-STACK DEVELOPER: // GO-POPUP__BERLIN (GERMANY)__2015",
+                            "text": "RESPONSIVE WEB DESIGN WITH LESS AND BOOTSTRAP // MAINTENANCE OF BACKBONE JS ON A PLAY FRAMEWORK // DESIGN AND INTEGRATION OF PHP APPLICATION TO MIGRATE DATA // CUSTOM GOOGLE MAPS MARKERS // ADVANCED DEVELOPMENT OF WORDPRESS THEMES //  ",
                             "link": "https://www.gopopup.com/en",
                             "location": {
                                 "city": "Berlin",
@@ -75,8 +97,8 @@
                         },
                         {
                             "icon": "icons/works/qsdm.png",
-                            "title": "UI/UX DESIGNER & WEB DEVELOPER: QUESERADEMI.COM__MADRID (SPAIN)__2012/15",
-                            "text": "MOCKUPS, WEB INTERFACE SKETCHES, WIREFRAMES AND STORYBOARDS // INTERACTIVE PROTOTYPES WITH FLASH  // PRODUCTION OF PROMOTIONAL VIDEOS                           // IMPLEMENTATION OF HIGHCHARTS AND TWITTER TYPEAHEAD // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN  // GOOGLE ANALYTICS TRACKING // INTEGRATION OF WORDPRESS BLOG // MANAGEMENT //",
+                            "title": "CO-FOUNDER & FULL-STACK & UX: // QUESERADEMI__MADRID (SPAIN)__2012-2018",
+                            "text": "MOCKUPS, WEB INTERFACE SKETCHES, WIREFRAMES AND STORYBOARDS // INTERACTIVE PROTOTYPES WITH FLASH  // PRODUCTION OF PROMOTIONAL VIDEOS // IMPLEMENTATION OF HIGHCHARTS AND TWITTER TYPEAHEAD // DEVELOPMENT OF PHP-EXCEL DATA CONVERTER // JQUERY MOBILE DEVELOPMENT // RESPONSIVE DESIGN  // GOOGLE ANALYTICS TRACKING // INTEGRATION OF WORDPRESS BLOG // MANAGEMENT //",
                             "link": "https://queserademi.com/",
                             "location": {
                                 "city": "Murcia",
