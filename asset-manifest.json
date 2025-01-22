@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.25119bb3.css",
-    "main.js": "/portfolio/static/js/main.3fe4779c.js",
+    "main.js": "/portfolio/static/js/main.c1ff03cd.js",
     "static/media/CV_Manuel_delPozo_FrontEndDeveloper.pdf": "/portfolio/static/media/CV_Manuel_delPozo_FrontEndDeveloper.15bbc5bcf765ec22fad5.pdf",
     "static/media/react.png": "/portfolio/static/media/react.b7830389ef0a32758a8e.png",
     "static/media/icono.jpg": "/portfolio/static/media/icono.2b36a34f59f6986b288e.jpg",
@@ -48,10 +48,10 @@
     "index.html": "/portfolio/index.html",
     "static/media/CNAME": "/portfolio/static/media/CNAME.c40590b75d18ba80ca19",
     "main.25119bb3.css.map": "/portfolio/static/css/main.25119bb3.css.map",
-    "main.3fe4779c.js.map": "/portfolio/static/js/main.3fe4779c.js.map"
+    "main.c1ff03cd.js.map": "/portfolio/static/js/main.c1ff03cd.js.map"
   },
   "entrypoints": [
     "static/css/main.25119bb3.css",
-    "static/js/main.3fe4779c.js"
+    "static/js/main.c1ff03cd.js"
   ]
 }
