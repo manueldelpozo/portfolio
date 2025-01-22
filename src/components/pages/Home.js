@@ -23,9 +23,12 @@ const Home = ({ body }) => (
                                     fullWidth
                                     component={ button.download ? "a" : Link }
                                     {
-                                        ...((button.download && 
-                                        { href: button.link, download: true }) || 
-                                        { to: process.env.PUBLIC_URL + button.link })
+                                        ...(button.download ? 
+                                            { 
+                                                href: button.link,
+                                                download: button.text + '.pdf',
+                                            } : 
+                                            { to: process.env.PUBLIC_URL + button.link })
                                     }>
                                 <Icon fontSize="default">{button.icon}</Icon>
                                 {button.text}
