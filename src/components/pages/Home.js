@@ -25,8 +25,8 @@ const Home = ({ body }) => (
                                     {
                                         ...(button.download ? 
                                             { 
-                                                href: process.env.PUBLIC_URL + button.link,
-                                                download: "CV_Manuel_delPozo_FrontEndDeveloper.pdf",
+                                                href: `${process.env.PUBLIC_URL}/${button.filename}`,
+                                                download: button.filename,
                                             } : 
                                             { to: process.env.PUBLIC_URL + button.link })
                                     }>

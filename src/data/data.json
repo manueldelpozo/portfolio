@@ -17,7 +17,7 @@
                             {
                                 "text": "GET MY CV",
                                 "icon": "archive",
-                                "link": "./../../assets/CV_Manuel_delPozo_FrontEndDeveloper.pdf",
+                                "filename": "CV_Manuel_delPozo_FrontEndDeveloper",
                                 "download": true
                             }
                         ]
@@ -126,57 +126,69 @@
                     },
                     "body": [
                         {
-                            "icon": "icons/skills/javascript.png",
-                            "title": "JAVASCRIPT",
-                            "text": "// ES6 // ANGULAR 2+ // REACT + REDUX // POLYMER 2+ // VUE // MATERIAL UI // TYPESCRIPT // LODASH // JQUERY // ",
+                            "icon": "icons/skills/ts.png",
+                            "title": "TS/JS",
+                            "text": "TYPESCRIPT_ADVANCED, ECMASCRIPT_2024, REACT_18, REDUX_RTK, VUE, ANGULAR_2+, POLYMER, MUI_5, NEXT_JS",
                             "link": ""
                         },
                         {
                             "icon": "icons/skills/css.png",
-                            "title": "CSS3",
-                            "text": "// SASS // LESS // BOOTSTRAP 4 // FLEXBOX // BEM //",
-                            "link": ""
-                        },
-                        {
-                            "icon": "icons/skills/magento.png",
-                            "title": "CMS",
-                            "text": "// WORDPRESS ADVANCED THEMING // MAGENTO 2 //",
+                            "title": "CSS",
+                            "text": "CSS_2024_ADVANCED, STYLED-COMPONENTS, CSS_MODULES, TAILWIND, SASS, BOOTSTRAP, BEM",
                             "link": ""
                         },
                         {
                             "icon": "icons/skills/testing.png",
-                            "title": "UNIT-TEST",
-                            "text": "// JUNIT // WCT // MOCHA JS // CHAI JS // SAUCELAB //",
+                            "title": "TEST",
+                            "text": "JEST, ENZYME, CYPRESS, WCT, RTL, ESLINT, MOCHA, SAUCELAB, DATADOG",
                             "link": ""
                         },
                         {
                             "icon": "icons/skills/webpack.png",
-                            "title": "BUILD & DEPLOYMENT",
-                            "text": "// NODE JS // NPM // YARN // BOWER // WEBPACK // GULP // JENKINS // ARTIFACTORY // NOLIO // BAMBOO //",
+                            "title": "BUILD",
+                            "text": "NPM, YARN, WEBPACK, ESBUILD, VITE, NUXT, GULP, BOWER",
                             "link": ""
                         },
                         {
-                            "icon": "icons/skills/git.png",
-                            "title": "WORKFLOW",
-                            "text": "// GIT: { GITLAB, GITHUB, STASH + SOURCETREE, TORTOISE } // AGILE: { YOU-TRACK, JIRA, CONFLUENCE, MATTERMOST } // ",
+                            "icon": "icons/skills/chatgpt.png",
+                            "title": "AI",
+                            "text": "GPT_4_CHAT_API, GEMINI_VERTEX_AI, CURSOR, TABNINE, WARP, TENSORFLOW_JS",
                             "link": ""
                         },
                         {
                             "icon": "icons/skills/php.png",
                             "title": "BACK-END",
-                            "text": "// JAVA: { SPRING + MAVEN } // PHP: { SYMFONY 2.0 + DOCTRINE } // PYTHON // MYSQL // GRAPHQL //",
+                            "text": "NODE_JS, MYSQL, GRAPHQL, PROTOBUF, PHP, SYMFONY, DOCTRINE, PYTHON, MONGO-DB",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/skills/magento.png",
+                            "title": "CMS",
+                            "text": "WORDPRESS_ADVANCED, MAGENTO_2",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/skills/git.png",
+                            "title": "CD/CI",
+                            "text": "GITLAB, GITHUB, ARCANIST, STASH_SOURCETREE, JENKINS, DOCKER",
+                            "link": ""
+                        },
+                        {
+                            "icon": "icons/skills/jira.png",
+                            "title": "AGILE",
+                            "text": "SLACK, JIRA, CONFLUENCE, YOU-TRACK",
                             "link": ""
                         },
                         {
                             "icon": "icons/skills/intellij.png",
-                            "title": "IDE",
-                            "text": "// WEBSTORM // PHPSTORM // INTELLIJ // SUBLIME // VISUAL STUDIO CODE // NETBEANS // SPRING TOOL SUITE //",
+                            "title": "TOOLS",
+                            "text": "MAC_OS, WARP, I_TERM_2, INTELLI_J, WEBSTORM, CURSOR, VISUAL_STUDIO_CODE",
                             "link": ""
                         },
                         {
                             "icon": "icons/skills/invision.png",
                             "title": "UI/UX",
-                            "text": "// PHOTOSHOP // DREAMWEAVER // EDGE ANIMATE // AFTER-EFFECTS // FLASH PRO // ILLUSTRATOR // INVISION //",
+                            "text": "FIGMA, INVISION, PHOTOSHOP, EDGE_ANIMATE, AFTER-EFFECTS, FLASH_PRO, ILLUSTRATOR",
                             "link": ""
                         }
                     ]
