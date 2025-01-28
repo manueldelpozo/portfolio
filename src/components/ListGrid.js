@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
-import { withStyles } from '@material-ui/core/styles'
+import { withStyles } from '@material-ui/styles'
 
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
@@ -22,7 +22,7 @@ const styles = theme => ({
 
 function ListGrid(props) {
     const { classes } = props
-    //console.log(props.list)
+    
     return (
         <List className={classes.root}>
             {props.list.map(item => (
@@ -33,11 +33,11 @@ function ListGrid(props) {
                     <ListItemText   
                         primary={item.title}
                         secondary={
-                            <Fragment>
+                            <>
                                 <Typography component="span" className={classes.inline} color="textPrimary">
                                     {item.link ? <a href={item.link}>{item.text}</a> : item.text}
                                 </Typography>
-                            </Fragment>
+                            </>
                         }
                     />
                 </ListItem>

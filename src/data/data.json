@@ -13,12 +13,6 @@
                                 "icon": "mail",
                                 "link": "/contact",
                                 "download": false
-                            },
-                            {
-                                "text": "GET MY CV",
-                                "icon": "archive",
-                                "filename": "CV_Manuel_delPozo_FrontEndDeveloper",
-                                "download": true
                             }
                         ]
                     }
