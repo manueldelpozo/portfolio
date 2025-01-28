@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import PropTypes from 'prop-types'
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid'
@@ -6,8 +6,8 @@ import Typography from '@material-ui/core/Typography'
 import Icon from '@material-ui/core/Icon'
 import { Link } from 'react-router-dom'
 
-const Home = ({ body }) => (
-    <Fragment>
+const Home = ({ body }) => (console.log(body),
+    <>
         <Typography align="center" 
                     color="textSecondary"
                     paragraph>
@@ -38,7 +38,7 @@ const Home = ({ body }) => (
                 }
             </Grid>
         </div>
-    </Fragment>
+    </>
 )
 
 Home.propTypes = {

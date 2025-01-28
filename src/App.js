@@ -1,5 +1,4 @@
-import React, { PureComponent } from 'react'
-import PropTypes from 'prop-types'
+import React, { useState } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
 import Page from './components/Page.js'
 import './App.scss'
@@ -13,12 +12,13 @@ import Contact from './components/pages/Contact.js'
 
 import data from './data/data.json'
 
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
+import Alert from '@material-ui/lab/Alert'
+import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import teal from '@material-ui/core/colors/teal'
 import blueGrey from '@material-ui/core/colors/blueGrey'
 import red from '@material-ui/core/colors/red'
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: { 
       main: teal[400]
@@ -52,95 +52,71 @@ const theme = createMuiTheme({
   }
 });
 
-class App extends PureComponent {
-
-  constructor(props) {
-    super(props)
-    this.handlerContent = this.handlerContent.bind(this)
-    this.updateLinks = this.updateLinks.bind(this)
-    this.pages = [
-      {
-        path: '/',
-        name: 'Home',
-        component: Home,
-        icon: 'home',
-        themeColor: 'primary'
-      },
-      {
-        path: '/works',
-        name: 'Work Experiences',
-        component: Works,
-        icon: 'business_center',
-        themeColor: 'secondary'
-      },
-      {
-        path: '/skills',
-        name: 'My Skills',
-        component: Skills,
-        icon: 'how_to_reg',
-        themeColor: 'primary'
-      },
-      {
-        path: '/training',
-        name: 'My Training',
-        component: Training,
-        icon: 'fitness_center',
-        themeColor: 'secondary'
-      },
-      {
-        path: '/contact',
-        name: 'Contact Me',
-        component: Contact,
-        icon: 'alternate_email',
-        themeColor: 'primary'
-      }
-    ]
-    this.initialPath = '/'
-
-    this.state = {
-      currentPath: this.initialPath, 
-      pages: this.pages,
-      lang: 'en',
-      data
-    }
+const pages = [
+  {
+    path: '/',
+    name: 'Home',
+    component: Home,
+    icon: 'home',
+    themeColor: 'primary'
+  },
+  {
+    path: '/works',
+    name: 'Work Experiences',
+    component: Works,
+    icon: 'business_center',
+    themeColor: 'secondary'
+  },
+  {
+    path: '/skills',
+    name: 'My Skills',
+    component: Skills,
+    icon: 'how_to_reg',
+    themeColor: 'primary'
+  },
+  {
+    path: '/training',
+    name: 'My Training',
+    component: Training,
+    icon: 'fitness_center',
+    themeColor: 'secondary'
+  },
+  {
+    path: '/contact',
+    name: 'Contact Me',
+    component: Contact,
+    icon: 'alternate_email',
+    themeColor: 'primary'
   }
+]
 
-  handlerContent(currentPath) {
-    this.setState({
-      currentPath
-    })
-    this.updateLinks(currentPath)
-  }
+const initialPath = '/'
 
-  updateLinks(currentPath) {
-    const pages = this.pages.filter(page => page.path !== currentPath.replace(process.env.PUBLIC_URL, ''))
-    //setTimeout(() => {
-      this.setState({
-        pages 
-      })
-    //}, 1000);
-  }
+const App = () => {
+  const [pagesState, setPagesState] = useState(pages)
+  const [lang] = useState('en')
 
-  render() {
-    return (
-      <MuiThemeProvider theme={theme}>
-        <div className="App">
-          <Router>
-            <Page content={this.state.data[this.state.lang]} 
-                  pages={this.state.pages} 
-                  setContent={this.handlerContent} />
-          </Router>
-        </div>
-      </MuiThemeProvider>
+  const updateLinks = (currentPath = initialPath) => {
+    const updatedPages = pages.filter(page => 
+      page.path !== currentPath.replace(process.env.PUBLIC_URL, '')
     )
+    setPagesState(updatedPages)
   }
-}
 
-App.propTypes = {
-  pages: PropTypes.arrayOf(PropTypes.object),
-  initialPath: PropTypes.string,
-  handlerContent: PropTypes.func,
-  updateLinks: PropTypes.func
+  return (
+    <ThemeProvider theme={theme}>
+      <Alert severity="warning" style={{ position: 'sticky', top: 0, left: 0, zIndex: 1000, width: '100vw' }}>
+          This portfolio is deprecated. A new version is under construction with latest technologies.
+        </Alert>
+      <div className="App">
+        <Router>
+          <Page content={data[lang]} 
+                pages={pagesState} 
+                setContent={updateLinks} />
+        </Router>
+      </div>
+    </ThemeProvider>
+  )
 }
 
 export default App

@@ -19,9 +19,9 @@ const Header = (props) => {
             <nav className="App-header__nav">
                 <Grid 
                     container 
-                    spacing={16} 
+                    spacing={2} 
                     direction="row"
-                    justify="center"
+                    justifyContent="center"
                     alignItems="center">
                         {links}
                 </Grid>
