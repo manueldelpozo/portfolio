@@ -13,6 +13,7 @@ import Contact from './components/pages/Contact.js'
 
 import data from './data/data.json'
 
+import Alert from '@material-ui/lab/Alert'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
 import teal from '@material-ui/core/colors/teal'
 import blueGrey from '@material-ui/core/colors/blueGrey'
@@ -130,6 +131,9 @@ class App extends PureComponent {
                   pages={this.state.pages} 
                   setContent={this.handlerContent} />
           </Router>
+          <Alert severity="warning" style={{ position: 'fixed', bottom: 20, right: 20, zIndex: 1000 }}>
+            This portfolio is deprecated. A new version is under construction with latest technologies.
+          </Alert>
         </div>
       </MuiThemeProvider>
     )
